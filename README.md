@@ -1,6 +1,6 @@
 # UART-System
 
-This fully parametrized system recieves commands via UART and sends the result back to the user.
+This fully parametrized system recieves commands via UART and sends the result back to the user. It deals with Clock-Domain-Crossing and gates the ALU Clock to save power.
 
 It has a Register File and an ALU with the following operations:
   - Addition
@@ -18,5 +18,5 @@ It has a Register File and an ALU with the following operations:
   - CMP: A > B
   - SHIFT: A >> 1
   - SHIFT: A << 1
-  
-  It deals with CLock-Domain-Crossing and gates the ALU Clock to save power.
+
+Included is a self-checking testbench for the UART and full System.
